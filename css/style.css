@@ -13,7 +13,7 @@
 }
 body
 {
-    background: url("./img/bg0.jpg") no-repeat center center/cover ;
+    background: url("https://github.com/rajkaushal03/Vampire-Verse/blob/main/img/bg0.jpg?raw=true") no-repeat center center/cover ;
     /* background: black; */
     background-attachment: fixed;
 }
@@ -212,20 +212,20 @@ span
 .first
 {
    
-    background: url('./img/bg1.jpg') no-repeat center center/cover;
+    background: url('https://github.com/rajkaushal03/Vampire-Verse/blob/main/img/bg1.jpg?raw=true') no-repeat center center/cover;
     /* background: black; */
 }
 .sec
 {
-    background: url('./img/bg2.jpg') no-repeat center center/cover;
+    background: url('https://github.com/rajkaushal03/Vampire-Verse/blob/main/img/bg2.jpg?raw=true') no-repeat center center/cover;
 }
 .third
 {
-    background: url('./img/bg3.jpg') no-repeat center center/cover;
+    background: url('https://github.com/rajkaushal03/Vampire-Verse/blob/main/img/bg3.jpg?raw=true') no-repeat center center/cover;
 }
 .fourth
 {
-    background: url('./img/bg4.jpg') no-repeat center center/cover;
+    background: url('https://github.com/rajkaushal03/Vampire-Verse/blob/main/img/bg4.jpg?raw=true') no-repeat center center/cover;
 }
 .slide img:hover{
     transform: scale(1.03);
