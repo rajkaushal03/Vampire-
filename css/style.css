@@ -13,7 +13,7 @@
 }
 body
 {
-    background: url("/img/bg0.jpg") no-repeat center center/cover ;
+    background: url("img/bg0.jpg") no-repeat center center/cover ;
     /* background: black; */
     background-attachment: fixed;
 }
