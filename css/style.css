@@ -588,3 +588,12 @@ background: #FF3300;
         width: 100%;
     }
 }
+.copy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background:black;
+    padding: 0.3rem;
+}
