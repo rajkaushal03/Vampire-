@@ -9,7 +9,7 @@
 body
 {
   /* background: url("/static/img/bg0.jpg") no-repeat center center/cover ; */
-  background: url('/static/img/bg4.jpg')no-repeat center center/cover;
+  /* background: url('/static/img/bg4.jpg')no-repeat center center/cover; */
     /* background: rgb(0, 0, 0); */
     background-attachment: fixed;
 }
@@ -374,7 +374,7 @@ form {
     font-size: 1.15rem;
   }
 
-  .social-icons a {
+  .social-icons a {   
     width: 30px;
     height: 30px;
     line-height: 30px;
