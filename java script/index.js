@@ -1,4 +1,6 @@
+"use strict"
 // this is for autoplay of slides 
+
 var counter = 1;
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
@@ -6,7 +8,7 @@ setInterval(function(){
     if(counter > 4){
     counter = 1;
     }
-}, 5000);
+}, 10000);
 
 const container = document.querySelector('.container')
 const emoji = document.querySelector('.emoji')
@@ -44,3 +46,37 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
+const Blockcontainer = document.querySelector('.Blockcontainer')
+
+for(var i = 0; i<=100;i++)
+{
+    const blocks=document.createElement('div')
+    blocks.classList.add('block');
+    Blockcontainer.appendChild(blocks);
+}
+
+function animateBlocks()
+{
+  anime({
+      targets: '.block',
+      translateX: function(){
+          return anime.random(-900,900);
+      },
+      translateY: function () {
+          return anime.random(-300,300);
+      },
+      scale: function () {
+          return anime.random(1,5);
+      },
+
+      easing: 'linear',
+      duration:3000,
+      delay:anime.stagger(10),
+      complete:animateBlocks,
+  })
+}
+
+animateBlocks()
+
+
