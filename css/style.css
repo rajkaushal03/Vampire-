@@ -14,8 +14,8 @@
 }
 body
 {
-    background: url("/static/img/bg0.jpg") no-repeat center center/cover ;
-/*     background: #080808; */
+/*     background: url("/static/img/bg0.jpg") no-repeat center center/cover ; */
+    background: #080808;
     background-attachment: fixed;
 }
 #navbar
