@@ -213,24 +213,7 @@ span
     display: flex;
     transition: 1s;
 }
-.first
-{
-   
-    background: url('/static/img/bg1.jpg') no-repeat center center/cover;
-    /* background: black; */
-}
-.sec
-{
-    background: url('/static/img/bg2.jpg') no-repeat center center/cover;
-}
-.third
-{
-    background: url('/static/img/bg3.jpg') no-repeat center center/cover;
-}
-.fourth
-{
-    background: url('/static/img/bg4.jpg') no-repeat center center/cover;
-}
+
 .slide img:hover{
     transform: scale(1.03);
 }
